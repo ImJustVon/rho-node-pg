@@ -14,7 +14,7 @@
         <h1>The Rho Library presents...</h1>
       </header>
       <h2>Add a book</h2>
-      <form id="book-form">
+      <form id="book-form" class="container">
         <div class="form-group">
           <label for="title">Title:</label>
           <input type="text" id="title" name="title" class="form-control" />
@@ -29,12 +29,20 @@
           <label for="published">Published:</label>
           <input type="date" id="published" name="published"  class="form-control"/>
         </div>
+        <div class="form-data">
+          <label for="edition">Edition: </label>
+          <input type="number" id="edition" name="edition" class="form-control" />
+        </div>
+        <div class="form-data">
+          <label for="Publisher">Publisher: </label>
+          <input type="text" id="publisher" name="publisher" class="form-control" />
+        </div>
 
         <button id="book-submit" class="btn btn-default">Go</button>
       </form>
 
       <h2>Books</h2>
-      <ul id="book-list">
+      <ul id="book-list" class="container-fluid">
 
       </ul>
     </main>

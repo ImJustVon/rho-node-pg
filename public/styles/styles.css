@@ -1,8 +1,12 @@
 h1 {
-  font-family: 'Taviraj', serif;
-  color: indigo;
+    font-family: 'Taviraj', serif;
+    color: #591b85;
 }
 
 h2 {
-  color: gray;
+    color: #0c84c8;
+}
+
+body {
+    background: linear-gradient(135deg, #22e38c 0%, #28dda6 100%);
 }
