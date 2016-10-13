@@ -10,3 +10,7 @@ h2 {
 body {
     background: linear-gradient(135deg, #22e38c 0%, #28dda6 100%);
 }
+
+ul {
+    list-style-type: none;
+}
